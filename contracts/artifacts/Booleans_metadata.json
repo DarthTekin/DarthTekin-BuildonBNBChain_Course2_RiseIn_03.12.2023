@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getText",
+				"name": "getVar",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "",
-						"type": "string"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -20,15 +20,28 @@
 			},
 			{
 				"inputs": [],
-				"name": "text",
+				"name": "isOwner",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "",
-						"type": "string"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "newValue",
+						"type": "bool"
+					}
+				],
+				"name": "setVar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/HelloWorld.sol": "HelloWorld"
+			"contracts/Booleans.sol": "Booleans"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/HelloWorld.sol": {
-			"keccak256": "0x1d49feb7d551189c16db4f9dfca5f53c964a0ea910a72c92e016bd6c4ae48de9",
+		"contracts/Booleans.sol": {
+			"keccak256": "0x678973d8550f8313440dc861c3f491ed538bbc99d164d9ca76258a06ba796173",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a1eb787f5fbc5d1967bb069a039e97400741ba914572cc6d0a87d38858155341",
-				"dweb:/ipfs/QmZktqr51KDuhqb7ECPzmptGgJCCbjuCQHReRBRDHtnz1c"
+				"bzz-raw://aecc8e62b5c5a8c2b20aee6b2e530edf0572c4e89aa51982951afc3ac3732499",
+				"dweb:/ipfs/QmSZxcauwsx4ntCiYkeeFuSNzD7Zjo3fi7EpsnrsUopnCa"
 			]
 		}
 	},
