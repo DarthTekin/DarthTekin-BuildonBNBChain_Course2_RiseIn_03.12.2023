@@ -89,7 +89,7 @@
 		"compilationTarget": {
 			"contracts/2_Owner.sol": "Owner"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

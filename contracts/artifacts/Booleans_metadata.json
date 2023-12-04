@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Booleans.sol": "Booleans"
+			"contracts/5. Booleans.sol": "Booleans"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,7 +72,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Booleans.sol": {
+		"contracts/5. Booleans.sol": {
 			"keccak256": "0x678973d8550f8313440dc861c3f491ed538bbc99d164d9ca76258a06ba796173",
 			"license": "MIT",
 			"urls": [
