@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "transactionId",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "NewTransaction",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/97. Events.sol": "Events"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/97. Events.sol": {
+			"keccak256": "0xb957bb9845708f2a6729e916f1ed37969cfa3b521286d5efae395889753af27c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b90c40cdc1011a1f465243040f78655498ca1bad5cb666474d58b27242251d51",
+				"dweb:/ipfs/QmdoWhgLUwCeadZ3Srn7w28zCoDTtgkUD3J7vJA7gqRZ8z"
+			]
+		}
+	},
+	"version": 1
+}
