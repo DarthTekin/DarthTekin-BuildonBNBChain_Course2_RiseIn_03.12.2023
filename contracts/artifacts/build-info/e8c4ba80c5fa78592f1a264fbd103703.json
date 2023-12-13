@@ -1,12 +1,12 @@
 {
-	"id": "05045147655496976858c52bee93d115",
+	"id": "e8c4ba80c5fa78592f1a264fbd103703",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.23",
 	"solcLongVersion": "0.8.23+commit.f704f362",
 	"input": {
 		"language": "Solidity",
 		"sources": {
-			"contracts/99. Library.sol": {
+			"contracts/901 MyLibraryContract.sol": {
 				"content": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.23;"
 			}
 		},
@@ -41,9 +41,9 @@
 	},
 	"output": {
 		"sources": {
-			"contracts/99. Library.sol": {
+			"contracts/901 MyLibraryContract.sol": {
 				"ast": {
-					"absolutePath": "contracts/99. Library.sol",
+					"absolutePath": "contracts/901 MyLibraryContract.sol",
 					"exportedSymbols": {},
 					"id": 2,
 					"license": "MIT",
